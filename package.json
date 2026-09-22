@@ -1,0 +1,12 @@
+{
+  "name": "llm-todo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "test": "node --test --test-timeout=30000 --test-force-exit \"test/**/*.test.js\""
+  }
+}
